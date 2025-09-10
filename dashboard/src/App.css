@@ -578,3 +578,99 @@ input[type="time"]:before {
 .form-btn {
   cursor: pointer;
 }
+/* Messages page */
+.page.messages {
+  padding: 20px;
+}
+
+.page.messages h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #271776;
+}
+
+.banner {
+  display: grid;
+  gap: 20px;
+}
+
+/* Message card */
+.card {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.details p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.details span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Reply section */
+.reply-section {
+  margin-top: 10px;
+}
+
+.reply-section textarea {
+  width: 100%;
+  resize: none;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.reply-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s ease;
+}
+
+.btn.reply {
+  background: #271776;
+  color: #fff;
+}
+
+.btn.reply:hover {
+  background: #3a24b0;
+}
+
+.btn.send {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn.send:hover {
+  background: #218838;
+}
+
+.btn.cancel {
+  background: #dc3545;
+  color: #fff;
+}
+
+.btn.cancel:hover {
+  background: #c82333;
+}
+
