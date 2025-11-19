@@ -41,7 +41,6 @@ export const patientRegister = catchAsyncErrors(async (req, res, next) => {
 
 export const login = catchAsyncErrors(async (req, res, next) => {
   const { email, password, confirmPassword, role } = req.body;
-  console.log(email, password, confirmPassword);
   if (!email || !password || !confirmPassword || !role) {
     return next(new ErrorHandler("Please Fill Full Form!", 400));
   }

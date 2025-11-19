@@ -106,7 +106,7 @@ export const updateAppointmentStatus = catchAsyncErrors(
       useFindAndModify: false,
     });
 
-    // ✅ Send email to patient
+    //  Send email to patient
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
